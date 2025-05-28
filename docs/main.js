@@ -1,8 +1,5 @@
-var logo: string = "";
-var name: string = "";
-
-
-
+var logo = "./logo.svg";
+var name = "Angstrom";
 var link = document.querySelector("link[rel~='icon']");
 if (!link) {
     link = document.createElement('link');

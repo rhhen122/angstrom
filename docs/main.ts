@@ -1,5 +1,5 @@
-var logo: string = "";
-var name: string = "";
+var logo: string = "./logo.svg";
+var name: string = "Angstrom";
 
 
 
