@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title id="title"></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class=top>
+    <p><img id="logo" height=20> <artical id="name"></artical></p>
+    </div>
+    <div class=main>
+    <a href="https://github.com/gitleaks/gitleaks-action"><img alt="gitleaks badge" align="right" src="https://img.shields.io/badge/protected%20by-gitleaks-blue"></a>
+    <h4>What the f*** is Angstrom?</h4>
+    <p>This is Angstrom!</p>
+    <p>Angstrom is a <i>1 page</i> website base made in <b>html, typescript, sassy css</b>
+
+    <h4>How do i use it?</h4>
+    <p>Simple, Download it and start up a <code>python-web-server.</code> <b>What the hell is a 'Python Web Server'?</b></p>
+    <p>A Python Web Server lets you run a virtual server on only your computer that emulates all the behaviours of a regular server.</p>
+    <p>To run it build a docker image with the provided Dockerfile! Then run it. In short it would look something like this:</p>
+    <code>
+      docker build -t angstrom .
+      docker run angstrom
+    </code>
+    <p>Keep in mind you will have to have docker installed onto your system.</p>
+
+    <h4>How to configure Angstrom</h4>
+    <p>The part that makes angstrom special is that it can be configured. Before you begin install things like:</p>
+    <ul>
+      <li>Logo</li>
+      <li>Any extra files you want</li>
+    </ul>
+    <p>Then configure elements to be used by the page in the: <b>main.ts</b> file and the: <b>style.scss</b> file!</p>
+    <p>At the top of both of these files lies elements of the site you can change and configure</p>
+    <p>As an example you can change the logo and name used across the site inside the main.ts file. You can also change the look of the site (eg. colors) in the style.scss file</p>
+    <p>An <b>IMPORTANT</b> thing to remember is to recompile both the main.ts file <i>(With the <b>tsc</b> compiler)</i> and the style.scss <i>(With the <b>sass</b> compiler)</i> to have your changes be <i>rendered</i> by the web browser</p>
+
+    <h4>How do I write things inside of Angstrom?</h4>
+    <p>If you arn't familiar with how <b>html</b> works then don't worry I will give a very basic explanation of what it is</p>
+    <p><b>html</b> is basically the skeleton. Its stores all the text and part of the website people are going to <i>see</i></p>
+    <p>Within html there is the <b>&lt;html&gt;</b> tag which contains EVERYTHING inside the site.</p>
+    <p>Inside that there are the <b>&lt;body&gt;</b> and the <b>&lt;head&lt;</b> tag. The head tag stores metadata. The body stores what the user actually sees.</p>
+    <p>If you want to learn <b>html</b> in an afternoon then visit <a href="https://www.w3schools.com/html/default.asp">The W3 Schools HTML Tutorial</a>
+
+    <hr>
+    <p>Powered By Angstrom</p>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
