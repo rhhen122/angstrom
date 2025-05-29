@@ -1,8 +1,8 @@
-var logo = "fib.png"; // This is the logo that will be used site wide
-var name = "fib"; // This is the name that will be used site wide
-var desc = "fib is a Fibonacci calculator written across multiple languages"; // This is the peice of text the appers at the top of the site and in embeds
+var logo = "logo.svg"; // This is the logo that will be used site wide
+var name = "Your Page Name"; // This is the name that will be used site wide
+var desc = "This is your website! You can customize it and everything!"; // This is the peice of text the appers at the top of the site and in embeds
 var php = 0; // Change to one to load index.php (BETA)
-var lice = "Apache"; /* Chose a license
+var lice = "CC"; /* Chose a license
 
  - CC
  - Apache
