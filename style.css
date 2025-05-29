@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: #000000;
+  margin: 20px;
+  color: #000000;
+  font-size: 20px;
+  font-family: "Noto Serif";
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: wavy underline;
+  cursor: pointer;
+}
+
+.top {
+  color: #000000;
+  padding-left: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.main {
+  color: #000000;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 90px;
+  width: 97%;
+  background-color: #ffffff;
+}
+
+/*# sourceMappingURL=style.css.map */
