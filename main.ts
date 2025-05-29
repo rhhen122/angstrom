@@ -1,13 +1,13 @@
-var logo: string = "logo.svg"; // This is the logo that will be used site wide
-var name: string = ""; // This is the name that will be used site wide
-var desc: string = ""; // This is the peice of text the appers at the top of the site and in embeds
-var lice: string = ""; /* Chose a license
+const logo: string = "logo.svg"; // This is the logo that will be used site wide
+const name: string = "Your Page Name"; // This is the name that will be used site wide
+const desc: string = "This is your website! You can customize it and everything!"; // This is the peice of text the appers at the top of the site and in embeds
+const php = 0; // Change to one to load index.php (BETA)
+const lice: string = "CC"; /* Chose a license
 
  - CC
  - Apache
  - MIT
 */
-
 
 
 var link = document.querySelector("link[rel~='icon']");
@@ -16,7 +16,18 @@ if (!link) {
     link.rel = 'icon';
     document.head.appendChild(link);
 }
+if (php == 1) {
+  window.location.href = "./index.php";
+}
+if (lice == "CC") {
+  let liceout = "https://badgen.net/static/license/CC 1.0/black?icon=https://www.svgrepo.com/show/362298/cc.svg";
+} else if (lice == "Apache"){
+  let liceout = "https://badgen.net/static/license/Apache%202.0/red?icon=https://upload.wikimedia.org/wikipedia/commons/7/7e/Apache_Feather_Logo.svg";
+} else if (lice == "MIT") {
+  let liceout = "https://badgen.net/static/license/MIT/blue?icon=https://www.svgrepo.com/show/105198/massachusetts-institute-of-technology-logotype.svg";
+}
 link.href = logo;
+document.getElementById("lice").src = liceout;
 document.getElementById("desctext").innerText = desc;
 document.getElementById("desc").content = desc;
 document.getElementById("title").innerText = name;
