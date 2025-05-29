@@ -1,8 +1,8 @@
-const logo: string = "logo.svg"; // This is the logo that will be used site wide
-const name: string = "Your Page Name"; // This is the name that will be used site wide
-const desc: string = "This is your website! You can customize it and everything!"; // This is the peice of text the appers at the top of the site and in embeds
+const logo: string = "fib.png"; // This is the logo that will be used site wide
+const name: string = "fib"; // This is the name that will be used site wide
+const desc: string = "fib is a Fibonacci calculator written across multiple languages"; // This is the peice of text the appers at the top of the site and in embeds
 const php = 0; // Change to one to load index.php (BETA)
-const lice: string = "CC"; /* Chose a license
+const lice: string = "Apache"; /* Chose a license
 
  - CC
  - Apache
